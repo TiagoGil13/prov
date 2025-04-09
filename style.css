@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    color: #222;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: white;
+    border-bottom: 1px solid #ccc;
+  }
+  header img {
+    height: 30px;
+  }
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+  }
+  .hero {
+    background: #ccf3d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+  }
+  .hero-text {
+    max-width: 50%;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero button, .hero .btn-outline {
+    margin-right: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #a859e3;
+    color: white;
+    cursor: pointer;
+  }
+  .hero .btn-outline {
+    background-color: transparent;
+    color: black;
+  }
+  .carousel, .recursos, .contrate {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  .carousel h2 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .setas{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .badges {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .recursos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .card {
+    width: 300px;
+    padding: 1rem;
+    text-align: left;
+    background: #f4f4f4;
+  }
+  .card:nth-child(2) { background: #ffdede; }
+  .card:nth-child(3) { background: #d5e8ff; }
+  .card h3 {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .btn-recursos {
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #000;
+    background: white;
+    border-radius: 20px;
+  }
+  .contrate {
+    background: #ccf3d8;
+  }
+  .contrate button {
+    margin-top: 1rem;
+    background-color: #a859e3;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .redes {
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  footer {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
